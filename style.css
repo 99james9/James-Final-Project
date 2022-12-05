@@ -1,0 +1,310 @@
+{
+	box-sizing: border-box;
+}
+body
+{
+	font-family: sans-serif;
+	font-size: 1.5em;
+	margin: 0;
+	background-color: white;
+}
+nav
+{
+	background-color: limegreen;
+	font-size: 1em;
+	border-top: 2px solid limegreen;
+	border-bottom: 2px solid limegreen;
+	list-style-type: none;
+	text-align: center;
+	border-color: black;
+}
+nav ul
+{
+	list-style-type: none;
+	margin: 10px;
+}
+nav li
+{
+	display: inline;
+	padding: .5em;
+}
+nav a
+{
+	text-decoration: none;
+}
+nav a:link
+{
+  color: blue;
+}
+nav a:visited
+{
+  color: purple;
+}
+nav a:hover
+{
+  color: red;
+}
+nav a:active
+{
+  color: blue;
+}
+header
+{
+	margin: 0 auto;
+	height: auto;
+	width: auto;
+	line-height: 200%;
+	background-color: lightgreen;
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+}
+h1
+{
+	text-align: center;
+}
+main
+{
+	max-width: 1000px;
+	margin: 20px auto;
+	padding-top: .5px;
+	display: block;
+}
+main ul
+{
+	font-family: initial;
+	font-size: 20px;
+	display: block;
+	overflow: hidden;
+}
+div
+{
+	display: block;
+}
+.resume
+{
+	text-align: center;
+}
+h2
+{
+	font-size: 1.4em;
+}
+h3
+{
+	font-size: 1em;
+}
+h4
+{
+	font-size: 1.5em;
+}
+h5
+{
+	font-family: serif;
+	font-size: 20px;
+}
+p
+{
+	font-family: initial;
+	display: block;
+	font-size: 20px;
+}
+hr
+{
+	border: 4px solid black;
+}
+.row .col-sm-4
+{
+	text-align: center;
+	display: block;
+}
+.row .col-sm-4 i
+{
+	font-size: 4em;
+	color: limegreen;
+}
+.row .col-sm-4 h2
+{
+	font-size: 2em;
+	color: limegreen;
+}
+.row .col-sm-4 p
+{
+	font-size: 18px;
+	color: darkslategrey;
+}
+.row .col-sm-6 img
+{
+	display: block;
+	margin: 10px auto;
+	box-shadow: 4px 4px 4px darkgrey;
+}
+button
+{
+	background-color: limegreen;
+	color: white;
+	border-radius: 10px;
+	padding: 5px 10px;
+
+}
+.about p
+{
+	font-size: 15px;
+}
+.col-sm-4
+{
+	display: block;
+}
+.col-sm-8
+{
+	display: block;
+}
+footer
+{
+	text-align: center;
+	border-top: 1px solid black;
+	padding: 10px;
+	background-color: limegreen;
+	margin-bottom: auto;
+	clear: both;
+	font-size: .8em;
+}
+footer a
+{
+	text-decoration: none;
+}
+canvas
+{
+	margin: 0 auto;
+	display: block;
+	border:1px solid #d3d3d3;
+  background-image: url(images/aurora.jpg);
+}
+.myButton
+{
+	font-size: 20px;
+	text-align: center;
+	margin:  10px auto;
+	display: block;
+}
+/*CSS without a media query--applies to all sizes unless overridden*/
+h1{
+		font-size: 1.5em;
+ }
+table
+{
+  border-collapse: collapse;
+}
+th, td
+{
+  border: solid black;
+  padding: 5px 10px 5px 10px;
+}
+th
+{
+  background-color: olive;
+  color: white;
+}
+form
+{
+	border:  1px solid grey;
+	padding: 20px;
+	max-width: 400px;
+	background-color: whitesmoke;
+	margin: 0 auto;
+	display: block;
+	box-shadow: 3px 3px 3px darkgrey;
+}
+label
+{
+	float: left;
+	width: 8em;
+	padding-right: 1.5em;
+	font-size: 20px;
+}
+input
+{
+	margin-bottom: 1em;
+	display: inline-block;
+	border-radius: 5px;
+	text-rendering: auto;
+}
+input[type="submit"]
+{
+	background-color: white;
+}
+input[type="reset"]
+{
+	background-color: white;
+}
+textarea
+{
+	height: 100px;
+	margin-top: 10px;
+}
+.video-container {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.video-container::after {
+    padding-top: 56.25%;
+    display: block;
+    content: '';
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.gallery .preview img
+{
+	box-shadow: 2px 2px 2px black;
+}
+.gallery .gallery-thumbnails
+{
+	padding-top: 10px;
+}
+.gallery .gallery-thumbnails img
+{
+	border-radius: 20%;
+	box-shadow: 2px 2px 2px black;
+}
+
+.gallery .preview{
+    width:100%
+    height:auto;
+}
+.gallery .gallery-thumbnails img {
+    width:100px;
+    height:75px;
+    margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 1.5em;
+}
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+	h1{
+		font-size: 1.5em;
+	}
+}

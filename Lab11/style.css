@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+
+{
+	box-sizing: border-box;
+}
+header
+{
+	font-size: 2em;
+}
+body
+{
+	font-family: 'Share Tech', sans-serif;
+	font-size: 1.5em;
+	margin: 0;
+	background-color: #133112;
+	display: block;
+}
+nav
+{
+	background-color: #5fd773;
+	font-size: 1em;
+	border-top: 2px solid #5fd773;
+	border-bottom: 2px solid #5fd773;
+	list-style-type: none;
+	text-align: center;
+	border-color: black;
+}
+.home-hero
+{
+	background-image: url(puppies/header.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 560px;
+	padding: 10px;
+	box-shadow: 4px 4px 4px #5fd773;
+	border-radius: 3%;
+}
+.col-sm-12 P, a
+{
+	color: #5fd773;
+}
+.col-sm-4 p
+{
+	text-align: center;
+	color: #5fd773;
+}
+.icons
+{
+	text-align: center;
+	padding: 20px;
+	margin: 0 auto;
+	font-size: 4em;
+
+}
+.img-fluid
+{
+	border-radius: 20%;
+	box-shadow: 4px 4px 4px #5fd773;
+}
+nav ul
+{
+	list-style-type: none;
+	margin: 10px;
+}
+nav li
+{
+	display: inline;
+	padding: .5em;
+}
+nav a
+{
+	text-decoration: none;
+}
+nav a:link
+{
+  color: #133112;
+}
+nav a:visited
+{
+  color: #133112;
+}
+nav a:hover
+{
+  color: red;
+}
+nav a:active
+{
+  color: blue;
+}
+h1
+{
+	line-height: 200%;
+	background-color: #133112;
+	text-align: center;
+	margin: 0;
+	color: #5fd773;
+}
+h2
+{
+	color: #133112;
+}
+h3
+{
+	color: #5fd773;
+}
+h4
+{
+	display: block;
+}
+main
+{
+	max-width: 1200px;
+	margin: 20px auto;
+	padding-top: .5px;
+}
+p
+{
+	padding-left: 1em;
+	color: darkblue;
+}
+footer
+{
+	text-align: center;
+	border-top: 1px solid black;
+	padding: 1em 2.5em 1em 2.5em;
+	display: block;
+	background-color: black;
+}
+small
+{
+	color: #5fd773;
+}
+footer a
+{
+	text-decoration: none;
+}
+/*CSS without a media query--applies to all sizes unless overridden*/
+h1{
+		font-size: 1.5em;
+ }
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 1.5em;
+}
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+	h1{
+		font-size: 1.5em;
+	}
+}

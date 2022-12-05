@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Portfolio website :: Home</title>
+	<meta name="description" content="Home page of my example website.">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Bootstrap Stylesheet-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<img src="images/logo.png" height="120" width="300" alt="websites logo">
+	</header>
+	<nav>
+		<ul>
+		    <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+		    <li><a href="resume.html"><i class="fa fa-file-text" aria-hidden="true"></i> Resume</a></li>
+		   	<li><a href="portfolio.html"><i class="fa fa-folder-open" aria-hidden="true"></i>Portfolio</a></li>
+		   	<li><a href="multimedia.html"><i class="fa fa-video-camera" aria-hidden="true"></i> Multimedia</a></li>
+		</ul>
+	</nav>
+	<main>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-4">
+					<img src="images/me.jpg" height="325" width="325" alt="totally me" class="homeimage">
+				</div>
+				<div class="col-sm-8">
+					<div class="about"><h2>About me page</h2>
+						<p>My name is James Finnemann and I study Computer Programming at Saint Paul College, Saint Paul, MN. This website is just an example website to demonstrate my skills in creating a website.</p>
+						<p>I have taken classes over the years here at Saint Paul College, deciding what type of career I wanted to pursue and slowly but steadily found my way to the Computer Programming carrer. I plan on graduating from the college in Fall of 2023 with an AAS in Computer Programming with a focus on Java, and hoping to get a career in the programming field.</p>
+						<h3>My Hobbies include</h3>
+						<ul>
+							<li>Playing Video Games</li>
+							<li>Building LEGO sets</li>
+							<li>Building/tampering with computers and other technology</li>
+							<li>Biking in the summer when I can</li>
+							<li>Watching TV shows and Anime</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<hr>
+			<div class="row">
+				<div class="col-sm-4">
+					<i class="fa fa-file-text" aria-hidden="true"></i>
+					<h2>Resume</h2>
+					<p>Have a look at my resume. I am always looking forward to coding opportunities in the workforce</p>
+					<a href="resume.html">
+						<button>Check It Out</button>
+					</a>
+				</div>
+				<div class="col-sm-4">
+					<i class="fa fa-folder-open" aria-hidden="true"></i>
+					<h2>Portfolio</h2>
+					<p>Come check out my portfolio with some of the projects i've done.</p>
+					<a href="portfolio.html">
+						<button>Check It Out</button>
+					</a>
+				</div>
+				<div class="col-sm-4">
+					<i class="fa fa-video-camera" aria-hidden="true"></i>
+					<h2>Multimedia</h2>
+					<p>Check out a video I filmed, the college I went too, and a song I enjoy.</p>
+					<a href="multimedia.html">
+						<button>Check It Out</button>
+					</a>
+				</div>
+			</div>
+			</div>
+			<hr>
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="gallery">
+					    <div class="preview">
+					        <img id="preview" src="images/me1.jpg" style="display:block;margin:0 auto;" alt="totally me in space"  height="600" width="800"/>
+					    </div>
+					    <div class="gallery-thumbnails" style="margin:0 auto;text-align:center">
+					        <img onclick="document.getElementById('preview').src=document.getElementById('img1').src" id="img1" src="images/me1.jpg" alt="image of totally me in space" />
+					        <img onclick="document.getElementById('preview').src= document.getElementById('img2').src;" id="img2" src="images/me2.jpg" alt="image of totally me in space clouds"  />
+					        <img onclick="document.getElementById('preview').src = document.getElementById('img3').src;" id="img3" src="images/me3.jpg" alt="image of totally me in space workin' on the station" />
+					        <img onclick="document.getElementById('preview').src = document.getElementById('img4').src;" id="img4" src="images/me4.jpg" alt="image of totally me just floatin' in space" />
+					        <img onclick="document.getElementById('preview').src = document.getElementById('img5').src;" id="img5" src="images/me5.jpg" alt="image of totally me in space with my bud on the falls"  />
+					    </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer>
+		Copyright &copy; JimboFlipsInc<br>
+		<p>My College: <a href="https://www.saintpaul.edu" target="_blank">Saint Paul college</a><br>
+		<i class="fa fa-github" aria-hidden="true"></i>
+		<a href="https://github.com/99james9/James-Final-Project" target="_blank">My Github Page</a></p>
+	</footer>
+	<!--jQuery, Popper, and Bootstrap Javascript files-->
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
